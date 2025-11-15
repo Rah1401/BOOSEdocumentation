@@ -1,0 +1,310 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BOOSEcode2
+  name: BOOSEcode2
+  href: api/BOOSEcode2.html
+  commentId: N:BOOSEcode2
+  fullName: BOOSEcode2
+  nameWithType: BOOSEcode2
+- uid: BOOSEcode2.Form1
+  name: Form1
+  href: api/BOOSEcode2.Form1.html
+  commentId: T:BOOSEcode2.Form1
+  fullName: BOOSEcode2.Form1
+  nameWithType: Form1
+- uid: BOOSEcode2.Form1.#ctor
+  name: Form1()
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1__ctor
+  commentId: M:BOOSEcode2.Form1.#ctor
+  name.vb: New()
+  fullName: BOOSEcode2.Form1.Form1()
+  fullName.vb: BOOSEcode2.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: BOOSEcode2.Form1.#ctor*
+  name: Form1
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1__ctor_
+  commentId: Overload:BOOSEcode2.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEcode2.Form1.Form1
+  fullName.vb: BOOSEcode2.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: BOOSEcode2.Form1.Canvas
+  name: Canvas
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_Canvas
+  commentId: P:BOOSEcode2.Form1.Canvas
+  fullName: BOOSEcode2.Form1.Canvas
+  nameWithType: Form1.Canvas
+- uid: BOOSEcode2.Form1.Canvas*
+  name: Canvas
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_Canvas_
+  commentId: Overload:BOOSEcode2.Form1.Canvas
+  isSpec: "True"
+  fullName: BOOSEcode2.Form1.Canvas
+  nameWithType: Form1.Canvas
+- uid: BOOSEcode2.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_Dispose_System_Boolean_
+  commentId: M:BOOSEcode2.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSEcode2.Form1.Dispose(bool)
+  fullName.vb: BOOSEcode2.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: BOOSEcode2.Form1.Dispose*
+  name: Dispose
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_Dispose_
+  commentId: Overload:BOOSEcode2.Form1.Dispose
+  isSpec: "True"
+  fullName: BOOSEcode2.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: BOOSEcode2.Form1.RunScript(System.String)
+  name: RunScript(string)
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_RunScript_System_String_
+  commentId: M:BOOSEcode2.Form1.RunScript(System.String)
+  name.vb: RunScript(String)
+  fullName: BOOSEcode2.Form1.RunScript(string)
+  fullName.vb: BOOSEcode2.Form1.RunScript(String)
+  nameWithType: Form1.RunScript(string)
+  nameWithType.vb: Form1.RunScript(String)
+- uid: BOOSEcode2.Form1.RunScript*
+  name: RunScript
+  href: api/BOOSEcode2.Form1.html#BOOSEcode2_Form1_RunScript_
+  commentId: Overload:BOOSEcode2.Form1.RunScript
+  isSpec: "True"
+  fullName: BOOSEcode2.Form1.RunScript
+  nameWithType: Form1.RunScript
+- uid: BOOSEcode2.MyCanvas
+  name: MyCanvas
+  href: api/BOOSEcode2.MyCanvas.html
+  commentId: T:BOOSEcode2.MyCanvas
+  fullName: BOOSEcode2.MyCanvas
+  nameWithType: MyCanvas
+- uid: BOOSEcode2.MyCanvas.#ctor(System.Int32,System.Int32)
+  name: MyCanvas(int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas__ctor_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.MyCanvas(int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.New(Integer, Integer)
+  nameWithType: MyCanvas.MyCanvas(int, int)
+  nameWithType.vb: MyCanvas.New(Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.#ctor*
+  name: MyCanvas
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas__ctor_
+  commentId: Overload:BOOSEcode2.MyCanvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSEcode2.MyCanvas.MyCanvas
+  fullName.vb: BOOSEcode2.MyCanvas.New
+  nameWithType: MyCanvas.MyCanvas
+  nameWithType.vb: MyCanvas.New
+- uid: BOOSEcode2.MyCanvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSEcode2.MyCanvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSEcode2.MyCanvas.Circle(int, bool)
+  fullName.vb: BOOSEcode2.MyCanvas.Circle(Integer, Boolean)
+  nameWithType: MyCanvas.Circle(int, bool)
+  nameWithType.vb: MyCanvas.Circle(Integer, Boolean)
+- uid: BOOSEcode2.MyCanvas.Circle*
+  name: Circle
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Circle_
+  commentId: Overload:BOOSEcode2.MyCanvas.Circle
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Circle
+  nameWithType: MyCanvas.Circle
+- uid: BOOSEcode2.MyCanvas.Clear
+  name: Clear()
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Clear
+  commentId: M:BOOSEcode2.MyCanvas.Clear
+  fullName: BOOSEcode2.MyCanvas.Clear()
+  nameWithType: MyCanvas.Clear()
+- uid: BOOSEcode2.MyCanvas.Clear*
+  name: Clear
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Clear_
+  commentId: Overload:BOOSEcode2.MyCanvas.Clear
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Clear
+  nameWithType: MyCanvas.Clear
+- uid: BOOSEcode2.MyCanvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.DrawTo(int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.DrawTo(Integer, Integer)
+  nameWithType: MyCanvas.DrawTo(int, int)
+  nameWithType.vb: MyCanvas.DrawTo(Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.DrawTo*
+  name: DrawTo
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_DrawTo_
+  commentId: Overload:BOOSEcode2.MyCanvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.DrawTo
+  nameWithType: MyCanvas.DrawTo
+- uid: BOOSEcode2.MyCanvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.MoveTo(int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.MoveTo(Integer, Integer)
+  nameWithType: MyCanvas.MoveTo(int, int)
+  nameWithType.vb: MyCanvas.MoveTo(Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.MoveTo*
+  name: MoveTo
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_MoveTo_
+  commentId: Overload:BOOSEcode2.MyCanvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.MoveTo
+  nameWithType: MyCanvas.MoveTo
+- uid: BOOSEcode2.MyCanvas.PenColour
+  name: PenColour
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_PenColour
+  commentId: P:BOOSEcode2.MyCanvas.PenColour
+  fullName: BOOSEcode2.MyCanvas.PenColour
+  nameWithType: MyCanvas.PenColour
+- uid: BOOSEcode2.MyCanvas.PenColour*
+  name: PenColour
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_PenColour_
+  commentId: Overload:BOOSEcode2.MyCanvas.PenColour
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.PenColour
+  nameWithType: MyCanvas.PenColour
+- uid: BOOSEcode2.MyCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSEcode2.MyCanvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSEcode2.MyCanvas.Rect(int, int, bool)
+  fullName.vb: BOOSEcode2.MyCanvas.Rect(Integer, Integer, Boolean)
+  nameWithType: MyCanvas.Rect(int, int, bool)
+  nameWithType.vb: MyCanvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSEcode2.MyCanvas.Rect*
+  name: Rect
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Rect_
+  commentId: Overload:BOOSEcode2.MyCanvas.Rect
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Rect
+  nameWithType: MyCanvas.Rect
+- uid: BOOSEcode2.MyCanvas.Reset
+  name: Reset()
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Reset
+  commentId: M:BOOSEcode2.MyCanvas.Reset
+  fullName: BOOSEcode2.MyCanvas.Reset()
+  nameWithType: MyCanvas.Reset()
+- uid: BOOSEcode2.MyCanvas.Reset*
+  name: Reset
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Reset_
+  commentId: Overload:BOOSEcode2.MyCanvas.Reset
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Reset
+  nameWithType: MyCanvas.Reset
+- uid: BOOSEcode2.MyCanvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.Set(int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.Set(Integer, Integer)
+  nameWithType: MyCanvas.Set(int, int)
+  nameWithType.vb: MyCanvas.Set(Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.Set*
+  name: Set
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Set_
+  commentId: Overload:BOOSEcode2.MyCanvas.Set
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Set
+  nameWithType: MyCanvas.Set
+- uid: BOOSEcode2.MyCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.SetColour(int, int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.SetColour(Integer, Integer, Integer)
+  nameWithType: MyCanvas.SetColour(int, int, int)
+  nameWithType.vb: MyCanvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.SetColour*
+  name: SetColour
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_SetColour_
+  commentId: Overload:BOOSEcode2.MyCanvas.SetColour
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.SetColour
+  nameWithType: MyCanvas.SetColour
+- uid: BOOSEcode2.MyCanvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSEcode2.MyCanvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSEcode2.MyCanvas.Tri(int, int)
+  fullName.vb: BOOSEcode2.MyCanvas.Tri(Integer, Integer)
+  nameWithType: MyCanvas.Tri(int, int)
+  nameWithType.vb: MyCanvas.Tri(Integer, Integer)
+- uid: BOOSEcode2.MyCanvas.Tri*
+  name: Tri
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Tri_
+  commentId: Overload:BOOSEcode2.MyCanvas.Tri
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Tri
+  nameWithType: MyCanvas.Tri
+- uid: BOOSEcode2.MyCanvas.WriteText(System.String)
+  name: WriteText(string)
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_WriteText_System_String_
+  commentId: M:BOOSEcode2.MyCanvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSEcode2.MyCanvas.WriteText(string)
+  fullName.vb: BOOSEcode2.MyCanvas.WriteText(String)
+  nameWithType: MyCanvas.WriteText(string)
+  nameWithType.vb: MyCanvas.WriteText(String)
+- uid: BOOSEcode2.MyCanvas.WriteText*
+  name: WriteText
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_WriteText_
+  commentId: Overload:BOOSEcode2.MyCanvas.WriteText
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.WriteText
+  nameWithType: MyCanvas.WriteText
+- uid: BOOSEcode2.MyCanvas.Xpos
+  name: Xpos
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Xpos
+  commentId: P:BOOSEcode2.MyCanvas.Xpos
+  fullName: BOOSEcode2.MyCanvas.Xpos
+  nameWithType: MyCanvas.Xpos
+- uid: BOOSEcode2.MyCanvas.Xpos*
+  name: Xpos
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Xpos_
+  commentId: Overload:BOOSEcode2.MyCanvas.Xpos
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Xpos
+  nameWithType: MyCanvas.Xpos
+- uid: BOOSEcode2.MyCanvas.Ypos
+  name: Ypos
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Ypos
+  commentId: P:BOOSEcode2.MyCanvas.Ypos
+  fullName: BOOSEcode2.MyCanvas.Ypos
+  nameWithType: MyCanvas.Ypos
+- uid: BOOSEcode2.MyCanvas.Ypos*
+  name: Ypos
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_Ypos_
+  commentId: Overload:BOOSEcode2.MyCanvas.Ypos
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.Ypos
+  nameWithType: MyCanvas.Ypos
+- uid: BOOSEcode2.MyCanvas.getBitmap
+  name: getBitmap()
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_getBitmap
+  commentId: M:BOOSEcode2.MyCanvas.getBitmap
+  fullName: BOOSEcode2.MyCanvas.getBitmap()
+  nameWithType: MyCanvas.getBitmap()
+- uid: BOOSEcode2.MyCanvas.getBitmap*
+  name: getBitmap
+  href: api/BOOSEcode2.MyCanvas.html#BOOSEcode2_MyCanvas_getBitmap_
+  commentId: Overload:BOOSEcode2.MyCanvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSEcode2.MyCanvas.getBitmap
+  nameWithType: MyCanvas.getBitmap
