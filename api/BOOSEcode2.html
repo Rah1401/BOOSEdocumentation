@@ -95,13 +95,37 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="BOOSEcode2.Form1.html">Form1</a></dt>
-      <dd></dd>
+      <dt><a class="xref" href="BOOSEcode2.BOOSEform.html">BOOSEform</a></dt>
+      <dd><p>Main Windows Form for running BOOSE programs.
+Allows the user to type commands, run them,
+and shows the drawing output on the canvas.</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.MyCanvas.html">MyCanvas</a></dt>
       <dd><p>A simple canvas used by the BOOSE interpreter.
-Handles drawing shapes, lines, colours and text.</p>
+Handles drawing shapes, lines, colours, text, and cursor movement.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyCircle.html">MyCircle</a></dt>
+      <dd><p>Replacement circle command that uses our canvas
+and does not have the BOOSE radius restriction.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyCommandFactory.html">MyCommandFactory</a></dt>
+      <dd></dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyMoveTo.html">MyMoveTo</a></dt>
+      <dd><p>Custom moveto command that simply forwards to our canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyRect.html">MyRect</a></dt>
+      <dd><p>Custom rectangle command that draws a rectangle
+using the application's canvas instead of BOOSE's default one.</p>
 </dd>
     </dl>
 

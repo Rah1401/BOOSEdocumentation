@@ -32,6 +32,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEcode2.BOOSEform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEcode2.BOOSEform.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEcode2.BOOSEform",
+      "Summary": "<p sourcefile=\"api/BOOSEcode2.BOOSEform.yml\" sourcestartlinenumber=\"1\">Main Windows Form for running BOOSE programs.\nAllows the user to type commands, run them,\nand shows the drawing output on the canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEcode2.Form1.yml",
       "output": {
         ".html": {
@@ -56,7 +70,63 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSEcode2.MyCanvas",
-      "Summary": "<p sourcefile=\"api/BOOSEcode2.MyCanvas.yml\" sourcestartlinenumber=\"1\">A simple canvas used by the BOOSE interpreter.\nHandles drawing shapes, lines, colours and text.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSEcode2.MyCanvas.yml\" sourcestartlinenumber=\"1\">A simple canvas used by the BOOSE interpreter.\nHandles drawing shapes, lines, colours, text, and cursor movement.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEcode2.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEcode2.MyCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEcode2.MyCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEcode2.MyCircle.yml\" sourcestartlinenumber=\"1\">Replacement circle command that uses our canvas\nand does not have the BOOSE radius restriction.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEcode2.MyCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEcode2.MyCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEcode2.MyCommandFactory",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEcode2.MyMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEcode2.MyMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEcode2.MyMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEcode2.MyMoveTo.yml\" sourcestartlinenumber=\"1\">Custom moveto command that simply forwards to our canvas.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEcode2.MyRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEcode2.MyRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEcode2.MyRect",
+      "Summary": "<p sourcefile=\"api/BOOSEcode2.MyRect.yml\" sourcestartlinenumber=\"1\">Custom rectangle command that draws a rectangle\nusing the application's canvas instead of BOOSE's default one.</p>\n"
     },
     {
       "type": "ManagedReference",
