@@ -10,7 +10,7 @@
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:navrel" content="">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -96,14 +96,33 @@ Classes
 </h3>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.BOOSEform.html">BOOSEform</a></dt>
-      <dd><p>Main Windows Form for running BOOSE programs.
-Allows the user to type commands, run them,
-and shows the drawing output on the canvas.</p>
+      <dd><p>Main Windows Form for running BOOSE programs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyArray.html">MyArray</a></dt>
+      <dd><p>Custom array implementation that removes BOOSE size restrictions.
+Supports both integer and real (double) array types in 1D or 2D configurations.
+Works with peek and poke operations for array element access.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyBoolean.html">MyBoolean</a></dt>
+      <dd><p>Custom Boolean variable class that removes BOOSE restrictions.
+Handles boolean values and logical expressions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyCall.html">MyCall</a></dt>
+      <dd><p>Custom call command for invoking defined methods.
+Removes BOOSE restrictions on method calls and argument passing.
+Syntax: call methodName [arg1, arg2, ...]</p>
 </dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.MyCanvas.html">MyCanvas</a></dt>
       <dd><p>A simple canvas used by the BOOSE interpreter.
+Implements Singleton pattern to ensure only one canvas instance exists.
 Handles drawing shapes, lines, colours, text, and cursor movement.</p>
 </dd>
     </dl>
@@ -114,8 +133,63 @@ and does not have the BOOSE radius restriction.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyClear.html">MyClear</a></dt>
+      <dd><p>Custom clear command that clears the canvas.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.MyCommandFactory.html">MyCommandFactory</a></dt>
-      <dd></dd>
+      <dd><p>Custom command factory that creates custom BOOSE commands.
+Replaces specific BOOSE commands with custom implementations while
+allowing other standard BOOSE commands to work normally.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyElse.html">MyElse</a></dt>
+      <dd><p>Custom else command for if-else branching.
+Marks the transition from if-true block to if-false block.
+When the if condition is true, execution jumps over the else block.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyEnd.html">MyEnd</a></dt>
+      <dd><p>Custom end command that closes if, while, for, and method blocks.
+Removes BOOSE nesting and complexity restrictions.
+Handles loop continuation and method returns.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyEvaluation.html">MyEvaluation</a></dt>
+      <dd><p>Custom evaluation class for handling standalone variable assignments.
+Allows assignments like &quot;width = 2*radius&quot; after variable declaration.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyFor.html">MyFor</a></dt>
+      <dd><p>Custom for loop implementation that removes BOOSE iteration restrictions.
+Supports: for variable = start to end [step increment]
+Default step is 1 if not specified.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyIf.html">MyIf</a></dt>
+      <dd><p>Custom If command that removes nesting restrictions.
+Evaluates a boolean condition and executes commands conditionally.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyInt.html">MyInt</a></dt>
+      <dd><p>Custom integer variable implementation that removes BOOSE restrictions.
+Supports unlimited variable names and no count limits.
+Handles both declaration and initialization syntax.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyMethod.html">MyMethod</a></dt>
+      <dd><p>Custom method command for defining reusable procedures.
+Removes BOOSE restrictions on method complexity and parameter count.
+Syntax: method returnType methodName [paramType paramName, ...]</p>
+</dd>
     </dl>
     <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.MyMoveTo.html">MyMoveTo</a></dt>
@@ -123,9 +197,56 @@ and does not have the BOOSE radius restriction.</p>
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyParser.html">MyParser</a></dt>
+      <dd><p>Custom parser that extends BOOSE's Parser to handle custom variable types.
+Intercepts int and real declarations to use custom classes, and handles
+standalone variable assignments.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyPeek.html">MyPeek</a></dt>
+      <dd><p>Custom peek command for reading values from array elements.
+Inherits from MyArray to access array operations.
+Syntax: peek variable = arrayName row col (2D) or peek variable = arrayName row (1D)</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyPoke.html">MyPoke</a></dt>
+      <dd><p>Custom poke command for writing values into array elements.
+Inherits from MyArray to access array operations.
+Syntax: poke arrayName row col = value (2D) or poke arrayName row = value (1D)</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyReal.html">MyReal</a></dt>
+      <dd><p>Custom real number variable implementation that removes BOOSE restrictions.
+Supports floating-point arithmetic and unlimited variable declarations.
+Handles variable substitution and expression evaluation.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="BOOSEcode2.MyRect.html">MyRect</a></dt>
       <dd><p>Custom rectangle command that draws a rectangle
 using the application's canvas instead of BOOSE's default one.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyTri.html">MyTri</a></dt>
+      <dd><p>Replacement triangle command that uses our canvas
+and does not have the BOOSE restrictions.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyWhile.html">MyWhile</a></dt>
+      <dd><p>Custom While loop implementation that removes BOOSE restrictions.
+Executes a block of commands repeatedly while a condition remains true.
+Syntax: while [condition] ... endwhile</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="BOOSEcode2.MyWrite.html">MyWrite</a></dt>
+      <dd><p>Custom write command for displaying text and variable values on the canvas.
+Supports variable substitution and expression evaluation for int, real, and boolean types.</p>
 </dd>
     </dl>
 

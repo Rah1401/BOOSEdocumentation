@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MyRect | BOOSE Documentation </title>
+      <title>Class MyInt | BOOSE Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MyRect | BOOSE Documentation ">
+      <meta name="title" content="Class MyInt | BOOSE Documentation ">
       
-      <meta name="description" content="Custom rectangle command that draws a rectangle using the application&#39;s canvas instead of BOOSE&#39;s default one.">
+      <meta name="description" content="Custom integer variable implementation that removes BOOSE restrictions. Supports unlimited variable names and no count limits. Handles both declaration and initialization syntax.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/new/main/apiSpec/new?filename=BOOSEcode2_MyRect.md&amp;value=---%0Auid%3A%20BOOSEcode2.MyRect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/new/main/apiSpec/new?filename=BOOSEcode2_MyInt.md&amp;value=---%0Auid%3A%20BOOSEcode2.MyInt%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSEcode2.MyRect">
+        <article data-uid="BOOSEcode2.MyInt">
 
 
 
-  <h1 id="BOOSEcode2_MyRect" data-uid="BOOSEcode2.MyRect" class="text-break">
-Class MyRect  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyRect.cs/#L8"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSEcode2_MyInt" data-uid="BOOSEcode2.MyInt" class="text-break">
+Class MyInt  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyInt.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,14 @@ Class MyRect  <a class="header-action link-secondary" title="View source" href="
   <dl><dt>Assembly</dt><dd>BOOSEcode2.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Custom rectangle command that draws a rectangle
-using the application's canvas instead of BOOSE's default one.</p>
+  <div class="markdown summary"><p>Custom integer variable implementation that removes BOOSE restrictions.
+Supports unlimited variable names and no count limits.
+Handles both declaration and initialization syntax.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyRect : CommandTwoParameters, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyInt : Evaluation, ICommand</code></pre>
   </div>
 
 
@@ -114,10 +115,8 @@ using the application's canvas instead of BOOSE's default one.</p>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">CommandOneParameter</span></div>
-      <div><span class="xref">CommandTwoParameters</span></div>
-      <div><span class="xref">MyRect</span></div>
+      <div><span class="xref">Evaluation</span></div>
+      <div><span class="xref">MyInt</span></div>
     </dd>
   </dl>
 
@@ -133,31 +132,34 @@ using the application's canvas instead of BOOSE's default one.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">CommandTwoParameters.param2</span>
+      <span class="xref">Evaluation.expression</span>
     </div>
     <div>
-      <span class="xref">CommandTwoParameters.param2unprocessed</span>
+      <span class="xref">Evaluation.evaluatedExpression</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CommandTwoParameters.CheckParameters(string[])</a>
+      <span class="xref">Evaluation.varName</span>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1</span>
+      <span class="xref">Evaluation.value</span>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1unprocessed</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <span class="xref">Evaluation.Expression</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <span class="xref">Evaluation.VarName</span>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.IsDouble</span>
@@ -176,9 +178,6 @@ using the application's canvas instead of BOOSE's default one.</p>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -230,60 +229,21 @@ using the application's canvas instead of BOOSE's default one.</p>
 </h2>
 
 
-  <a id="BOOSEcode2_MyRect__ctor_" data-uid="BOOSEcode2.MyRect.#ctor*"></a>
+  <a id="BOOSEcode2_MyInt__ctor_" data-uid="BOOSEcode2.MyInt.#ctor*"></a>
 
-  <h3 id="BOOSEcode2_MyRect__ctor" data-uid="BOOSEcode2.MyRect.#ctor">
-  MyRect()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyRect.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEcode2_MyInt__ctor" data-uid="BOOSEcode2.MyInt.#ctor">
+  MyInt()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyInt.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Blank constructor used by the command factory.</p>
+  <div class="markdown level1 summary"><p>Initializes a new integer variable instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyRect()</code></pre>
+    <pre><code class="lang-csharp hljs">public MyInt()</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="BOOSEcode2_MyRect__ctor_" data-uid="BOOSEcode2.MyRect.#ctor*"></a>
-
-  <h3 id="BOOSEcode2_MyRect__ctor_BOOSE_Canvas_System_Int32_System_Int32_" data-uid="BOOSEcode2.MyRect.#ctor(BOOSE.Canvas,System.Int32,System.Int32)">
-  MyRect(Canvas, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyRect.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Constructor used when creating the command manually.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyRect(Canvas c, int width, int height)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>c</code> <span class="xref">Canvas</span></dt>
-    <dd><p>The canvas used for drawing.</p>
-</dd>
-    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Rectangle width.</p>
-</dd>
-    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>Rectangle height.</p>
-</dd>
-  </dl>
 
 
 
@@ -300,15 +260,49 @@ using the application's canvas instead of BOOSE's default one.</p>
 </h2>
 
 
-  <a id="BOOSEcode2_MyRect_Execute_" data-uid="BOOSEcode2.MyRect.Execute*"></a>
+  <a id="BOOSEcode2_MyInt_Compile_" data-uid="BOOSEcode2.MyInt.Compile*"></a>
 
-  <h3 id="BOOSEcode2_MyRect_Execute" data-uid="BOOSEcode2.MyRect.Execute">
-  Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyRect.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSEcode2_MyInt_Compile" data-uid="BOOSEcode2.MyInt.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyInt.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Executes the rectangle command. Draws an unfilled rectangle
-starting at the current cursor position.</p>
+  <div class="markdown level1 summary"><p>Parses integer variable declaration.
+Supports: int [name] or int [name] = [value]</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasException</span></dt>
+    <dd><p>Thrown when declaration syntax is invalid.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="BOOSEcode2_MyInt_Execute_" data-uid="BOOSEcode2.MyInt.Execute*"></a>
+
+  <h3 id="BOOSEcode2_MyInt_Execute" data-uid="BOOSEcode2.MyInt.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyInt.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Evaluates and assigns the integer value.
+Converts the expression result to an integer and updates the variable.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -328,7 +322,7 @@ starting at the current cursor position.</p>
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><span class="xref">CanvasException</span></dt>
-    <dd><p>Thrown if width or height are invalid.</p>
+    <dd><p>Thrown when value cannot be parsed as integer.</p>
 </dd>
   </dl>
 
@@ -338,7 +332,7 @@ starting at the current cursor position.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyRect.cs/#L8" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE2025repos/ase-boose-assignment-Rah1401/blob/main/BOOSEcode2/MyInt.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 
